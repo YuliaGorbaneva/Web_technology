@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Lumanosimo-Regular;
+    src: url(../fonts/Lumanosimo-Regular.ttf);
+}
+
+*{
+    font-family: Lumanosimo-Regular;
+    font-size: 15px;
+}
+
+header{
+    display: flex;
+    margin: 30px 40px 50px 60px;
+    padding: 50px 50px 20px 30px;
+    background-color: aqua;
+    color: blue;
+}
+
+img{
+    width: 250px;
+    height: 255px;
+    margin: 0 145px 0 0;
+    background: red;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin: 26px 350px;
+    background-color: greenyellow;
+}
+h2{
+    background-color: palevioletred;
+}
+h2{
+    background: teal;
+}
