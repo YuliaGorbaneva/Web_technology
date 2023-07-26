@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Montserrat-VariableFont;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+*{
+    font-family: Montserrat-VariableFont;
+    font-size: 50;
+    background: rgb(243, 254, 255)
+}
+header{
+    display: flex;
+    margin: 0px auto ;
+    padding: 50px 30px 0px 200px;
+    color: rgb(111, 30, 165);
+    
+
+}
+img{
+    width: 1800px;
+    height: 800;
+    padding: 0px  20px 0px  150px;
+    .img1{
+        width: 150px;
+        height: 1500;
+        padding: 0px  20px 0px  150px;
+    }
+}
+h1{
+    text-align: center;
+    margin: 50px 0px 0px 50px;
+    color: darkblue;
+    font-size: 550%;
+}
+ul.menu{
+    margin: 100;
+    padding: 0px 0px 0px 150px;
+    background: #d3e2b8;
+}
+ul.menu li{
+    display: inline;
+    margin-right: 155px;
+    border: 1px solid;
+    padding: 15px;
+    color: rgb(48, 46, 44); 
+}
+
+button {
+    background: #d3e2b8; /* Синий цвет фона */
+    color: rgb(48, 46, 44); /* Белый цвет текста */
+    border: 2px solid; /* Убираем рамку */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */
+    font-size: 20px; 
+}
