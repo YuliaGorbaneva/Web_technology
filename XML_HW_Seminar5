@@ -1,3 +1,5 @@
+Задача 1.
+
 <req>
 
         <surname>Иванов</surname>
@@ -31,4 +33,108 @@
         <phone>8 926 766 48 48</phone>
 
 </req>
+************************************************************************************************************
+
+Задача 2.
+
+{
+
+        ""surname"": ""Иванов""
+
+        ""name"": ""Иван""
+
+        ""patronymic"": ""Иванович""
+
+        ""birthdate"": ""01.01.1990""
+
+        ""birthplace"": ""Москва""
+
+        ""phone"": ""8 926 766 48 48""
+
+}
+
+Ошибки: 
+        1 - тип данных "значение: ключ" указаны в двойных двойных ковычках
+        2 - после каждой пары "значение: ключ" дожна быть запятая, кроме последней строки
+        Наличие пробелов в номере телефона не влияет на вывод данных (программа принемает их как одну строку со значениями)
+
+{
+  "surname": "Иванов",
+  "name": "Иван",
+  "patronymic": "Иванович",
+  "birthdate": "01.01.1990",
+  "birthplace": "Москва",
+  "phone": "89267664848"
+}
+
+
+********************************************************************************************************
+
+**Дполнительная задача
+Составьте список из 5 ваших любимых фильмов в формате JSON или XML. 
+В описании укажите название фильма, рейтинг, дату выхода на экраны, режиссера. 
+Если хотите смиксовать жанры - жанры тоже указать в описании дополнительно. 
+Можно использовать данные с сайтов КиноПоиск, ФильмРу и др.
+
+*XML
+
+<?xml version="1.0"?>
+<Сategories>
+        <Movies>
+                <Films>
+                    <Film_names>The Green Mile</Film_names>
+                    <Stage_director>Frank Darabont</Stage_director>
+                    <Country>USA</Country>
+                    <Genre>Drama</Genre>
+                    <Release_date>1999-12-06</Release_date>
+                    <Rating>9.1</Rating>
+                </Films>
+                <Films>
+                    <Film_names>Intouchables</Film_names>
+                    <Stage_director>Olivier Nakache</Stage_director>
+                    <Country>France</Country>
+                    <Genre>Drama</Genre>
+                    <Release_date>2011-09-23</Release_date>
+                    <Rating>8.8</Rating>
+                </Films>
+                <Films>
+                    <Film_names>Avatar</Film_names>
+                    <Stage_director>James Cameron</Stage_director>
+                    <Country>USA</Country>
+                    <Genre>Fantastic</Genre>
+                    <Release_date>2009-12-10</Release_date>
+                    <Rating>8.0</Rating>
+                </Films>
+                <Films>
+                    <Film_names>Back to the Future</Film_names>
+                    <Stage_director>Robert Zemeckis</Stage_director>
+                    <Country>USA</Country>
+                    <Genre>Fantastic</Genre>
+                    <Release_date>1985-07-03</Release_date>
+                    <Rating>8.6</Rating>
+                </Films>
+        </Movies>
+        <Animation>
+                <Film_names>Sen to Chihiro no kamikakushi</Film_names>
+                <Stage_director>Hayao Miyazaki</Stage_director>
+                <Country>Japan</Country>
+                <Genre>Anime</Genre>
+                <Release_date>2001-07-20</Release_date>
+                <Rating>8.5</Rating>
+        </Animation>
+</Сategories>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
